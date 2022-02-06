@@ -11,7 +11,7 @@ plugins:
 
 paginate: 10
 
-skin: solarized
+skin: midnight
 
 # Jekyll
 # ======
