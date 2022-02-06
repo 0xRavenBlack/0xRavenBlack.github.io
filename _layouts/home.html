@@ -27,9 +27,7 @@ layout: default
             {{ post.date | date: date_format }}
           </time>
         </p>
-        {%- if post.show_excerpts != false -%}
-          <div class="post-excerpt">{{ post.excerpt | strip_html }}</div>
-        {%- endif -%}
+        <div class="post">{{ post }}</div>
       </li>
       {%- endfor -%}
     </ul>
