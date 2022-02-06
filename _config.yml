@@ -9,7 +9,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-target-blank
-  - jekyll-creativecommons
   
 paginate: 10
 
