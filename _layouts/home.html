@@ -27,7 +27,9 @@ layout: default
             {{ post.date | date: date_format }}
           </time>
         </p>
-        <div class="post">{{ post }}</div>
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ content }}
+        </div>
       </li>
       {%- endfor -%}
     </ul>
