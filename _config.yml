@@ -8,7 +8,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-
+  - jekyll-target-blank
+  
 paginate: 10
 
 skin: midnight
