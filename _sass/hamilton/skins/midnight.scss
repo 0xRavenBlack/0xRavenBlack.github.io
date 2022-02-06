@@ -1,7 +1,7 @@
-$text-color:            lightgrey !default;
-$text-color-light:      silver !default;
-$background-color:      #121212 !default;
-$code-background-color: #49483e !default;
+$text-color:            #f8f8f2 !default;
+$text-color-light:      #6272a4 !default;
+$background-color:      #282a36 !default;
+$code-background-color: #44475a !default;
 
 $border-color:          mix($text-color, $background-color, 30%) !default;
 $border-color-light:    darken($border-color, 5%) !default;
@@ -26,28 +26,28 @@ $subscribe-color:       tomato !default;
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
-  color: #75715e;
+  color: #ffb86c;
   font-style: italic;
 }
 .highlight .cm {
-  color: #75715e;
+  color: #ffb86c;
   font-style: italic;
 }
 .highlight .c1 {
-  color: #75715e;
+  color: #ffb86c;
   font-style: italic;
 }
 .highlight .cp {
-  color: #75715e;
+  color: #ffb86c;
   font-weight: bold;
 }
 .highlight .cs {
-  color: #75715e;
+  color: #ffb86c;
   font-weight: bold;
   font-style: italic;
 }
 .highlight .err {
-  color: #960050;
+  color: #ff5555;
   background-color: #1e0010;
 }
 .highlight .gi {
@@ -63,137 +63,137 @@ $subscribe-color:       tomato !default;
   font-style: italic;
 }
 .highlight .gr {
-  color: #aa0000;
+  color: #ff5555;
 }
 .highlight .gt {
-  color: #aa0000;
+  color: #ff5555;
 }
 .highlight .gh {
-  color: #999999;
+  color: #ffb86c;
 }
 .highlight .go {
-  color: #888888;
+  color: #ffb86c;
 }
 .highlight .gp {
-  color: #555555;
+  color: #ffb86c;
 }
 .highlight .gs {
   font-weight: bold;
 }
 .highlight .gu {
-  color: #aaaaaa;
+  color: #ffb86c;
 }
 .highlight .k, .highlight .kv {
-  color: #66d9ef;
+  color: #bd93f9;
   font-weight: bold;
 }
 .highlight .kc {
-  color: #66d9ef;
+  color: #bd93f9;
   font-weight: bold;
 }
 .highlight .kd {
-  color: #66d9ef;
+  color: #bd93f9;
   font-weight: bold;
 }
 .highlight .kp {
-  color: #66d9ef;
+  color: #bd93f9;
   font-weight: bold;
 }
 .highlight .kr {
-  color: #66d9ef;
+  color: #bd93f9;
   font-weight: bold;
 }
 .highlight .kt {
-  color: #66d9ef;
+  color: #bd93f9;
   font-weight: bold;
 }
 .highlight .kn {
-  color: #f92672;
+  color: #ff5555;
   font-weight: bold;
 }
 .highlight .ow {
-  color: #f92672;
+  color: #ff5555;
   font-weight: bold;
 }
 .highlight .o {
-  color: #f92672;
+  color: #ff5555;
   font-weight: bold;
 }
 .highlight .mf {
-  color: #ae81ff;
+  color: #50fa7b;
 }
 .highlight .mh {
-  color: #ae81ff;
+  color: #50fa7b;
 }
 .highlight .il {
-  color: #ae81ff;
+  color: #50fa7b;
 }
 .highlight .mi {
-  color: #ae81ff;
+  color: #50fa7b;
 }
 .highlight .mo {
-  color: #ae81ff;
+  color: #50fa7b;
 }
 .highlight .m, .highlight .mb, .highlight .mx {
-  color: #ae81ff;
+  color: #50fa7b;
 }
 .highlight .se {
-  color: #ae81ff;
+  color: #50fa7b;
 }
 .highlight .sb {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .sc {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .sd {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .s2 {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .sh {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .si {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .sx {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .sr {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .s1 {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .ss {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .s, .highlight .sa, .highlight .dl {
-  color: #e6db74;
+  color: #f1fa8c;
 }
 .highlight .na {
-  color: #a6e22e;
+  color: #ff79c6;
 }
 .highlight .nc {
-  color: #a6e22e;
+  color: #ff79c6;
   font-weight: bold;
 }
 .highlight .nd {
-  color: #a6e22e;
+  color: #ff79c6;
   font-weight: bold;
 }
 .highlight .ne {
-  color: #a6e22e;
+  color: #ff79c6;
   font-weight: bold;
 }
 .highlight .nf, .highlight .fm {
-  color: #a6e22e;
+  color: #ff79c6;
   font-weight: bold;
 }
 .highlight .no {
-  color: #66d9ef;
+  color: #bd93f9;
 }
 .highlight .bp {
   color: #f8f8f2;
@@ -227,7 +227,7 @@ $subscribe-color:       tomato !default;
   font-weight: bold;
 }
 .highlight .nt {
-  color: #f92672;
+  color: #ff5555;
 }
 .highlight {
   color: #f8f8f2;
