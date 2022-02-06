@@ -11,11 +11,8 @@
       {% endif %}
       {% if site.author %}
       <p>Copyright © {{ year_string }} {{ site.author }}; All rights reserved.</p>
+      <p>{{ site.description | escape }}</p>
       {% endif %}
     </div>
-  </div>
-
-  <div class="footer-col">
-    <p>{{ site.description | escape }}</p>
   </div>
 </div>
