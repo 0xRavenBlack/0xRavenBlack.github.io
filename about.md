@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<img src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" alt="about_avatar_full">
+<img style="float: left;" src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" alt="about_avatar_full" >
 <ul style="list-style-type: none; margin: 0; padding: 0;">
   <li>🦇 Gothic Vampire</li>
   <li>🎨 Digital Artist</li>
