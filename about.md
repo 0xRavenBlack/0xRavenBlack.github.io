@@ -4,9 +4,8 @@ title: About
 permalink: /about/
 ---
 <div>
-<img src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" align="left" />
+<img align="left" src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png"/>
 
-<div>
 <ul style="list-style-type: none;">
   <li style="margin: 0px;">🦇 Gothic Vampire</li>
   <li style="margin: 0px;">🎨 Digital Artist</li>
@@ -21,7 +20,6 @@ permalink: /about/
   <li style="margin: 0px;">Gender pronoun: he/him</li>
   <li style="margin: 0px;">Languages: 🇺🇸/🇩🇪</li>
 </ul>
-</div>
 </div>
 
 
