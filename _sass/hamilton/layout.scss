@@ -202,7 +202,7 @@
 
   @include media-query($on-medium) {
     padding: $spacing-unit / 2;
-    @include relative-font-size(1.1);
+    @include relative-font-size(0.8);
   }
 
   @include media-query($on-small) {
