@@ -11,17 +11,17 @@ permalink: /about/
   </td>
 <td style="border: 0px solid transparent">
 <ul style="list-style-type: none;">
-  <li>🦇 Gothic Vampire</li>
-  <li>🎨 Digital Artist</li>
-  <li>📷 Photographer</li>
-  <li>👨‍💻 Developer</li>
-  <li>🐧 Linux and OpenSource Enthusiast</li>
-  <li>(full-time Arch Linux user since 2010)</li>
+  <li style="margin: 0px;">🦇 Gothic Vampire</li>
+  <li style="margin: 0px;">🎨 Digital Artist</li>
+  <li style="margin: 0px;">📷 Photographer</li>
+  <li style="margin: 0px;">👨‍💻 Developer</li>
+  <li style="margin: 0px;">🐧 Linux and OpenSource Enthusiast</li>
+  <li style="margin: 0px;">(full-time Arch Linux user since 2010)</li>
 </ul>
 <br />
 <ul style="list-style-type: none;">
-  <li>Gender pronoun: he/him</li>
-  <li>Languages: 🇺🇸/🇩🇪</li>
+  <li style="margin: 0px;">Gender pronoun: he/him</li>
+  <li style="margin: 0px;">Languages: 🇺🇸/🇩🇪</li>
 </ul>
   </td>
 </tr>
