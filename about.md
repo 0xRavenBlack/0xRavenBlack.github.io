@@ -15,4 +15,4 @@ permalink: /about/
 Gender pronoun: he/him \
 Languages: 🇺🇸/🇩🇪 
 
-<br style="clear:both" />
+<br style="clear:left" />
