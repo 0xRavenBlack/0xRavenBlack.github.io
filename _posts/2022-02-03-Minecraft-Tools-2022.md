@@ -6,7 +6,7 @@ tags: [Minecraft, Fanart, GameArt, Blender, Artwork, 3D]
 ---
 
 Minecraft Tools 2022 ⛏️🎮 (Blender 3D Artwork) \
-_created with Blender / CyclesRenderer by Mike Ravenblack_ \
+_created with Blender / CyclesRenderer by Mike Ravenblack_
 ## Description: 
 On this picture you can see some diamond tools and some dirt blocks from the game Minecraft (it is fan art designed by myself)
 ## Artwork:

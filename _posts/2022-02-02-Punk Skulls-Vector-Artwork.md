@@ -6,7 +6,7 @@ tags: [Punk, Skulls, Vector, Inkscape, Artwork, 2D]
 ---
 
 Punk 👊 Skulls 💀 (2D Artwork) \
-_Sketched and designed by Mike Ravenblack with Inkscape_ \
+_Sketched and designed by Mike Ravenblack with Inkscape_
 ## Description: 
 On this picture you can see punk skulls in 2D vector art style
 ## Artwork:
