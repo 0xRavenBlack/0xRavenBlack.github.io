@@ -4,4 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Another minimal style of Jekyll theme for writers.
+<img align="right" src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" />
+
+🦇 Gothic Vampire
+🎨 Digital Artist
+📷 Photographer
+👨‍💻 Developer
+🐧 Linux and OpenSource Enthusiast
+----(full-time ArchLinux user since 2010)
+
+Gender pronoun: he/him
+Languages: 🇺🇸/🇩🇪 
