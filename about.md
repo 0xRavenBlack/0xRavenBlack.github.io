@@ -3,8 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-<div style="float:left;">
-<img src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" style="float:left;" />
+<div>
+<img src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" align="left" />
 
 <div>
 <ul style="list-style-type: none;">
