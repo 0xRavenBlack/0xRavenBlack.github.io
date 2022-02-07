@@ -8,6 +8,7 @@ $border-color-light:    lighten($border-color, 10%) !default;
 $border-color-dark:     darken($border-color, 25%) !default;
 
 $link-base-color:       #760000 !default;
+$link-hover-color:      #003be4 !default;
 $link-visited-color:    darken($link-base-color, 5%) !default;
 
 $table-text-color:      lighten($text-color, 18%) !default;
