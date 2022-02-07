@@ -3,6 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+
+<div>
 <img align="left" src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" />
 
 🦇 Gothic Vampire \
@@ -14,5 +16,4 @@ permalink: /about/
 <br /> 
 Gender pronoun: he/him \
 Languages: 🇺🇸/🇩🇪 
-
-<br style="clear:left" />
+</div>
