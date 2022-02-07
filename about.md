@@ -3,14 +3,14 @@ layout: page
 title: About
 permalink: /about/
 ---
-<table cellspacing="0" cellpadding="0">
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
 <tbody>
 <tr>
   <td>
   <img src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" alt="" width="512" height="512" />
   </td>
 <td>
-  <ul style="list-style-type: none;">
+<ul style="list-style-type: none;">
   <li>🦇 Gothic Vampire</li>
   <li>🎨 Digital Artist</li>
   <li>📷 Photographer</li>
