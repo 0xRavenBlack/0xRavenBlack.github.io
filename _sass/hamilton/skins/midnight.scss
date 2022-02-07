@@ -3,7 +3,7 @@ $text-color-light:      #6272a4 !default;
 $background-color:      #282a36 !default;
 $code-background-color: #44475a !default;
 
-$border-color:          mix($text-color, $background-color, 30%) !default;
+$border-color:          #44475a !default;
 $border-color-light:    darken($border-color, 5%) !default;
 $border-color-dark:     lighten($border-color, 10%) !default;
 
