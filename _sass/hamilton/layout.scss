@@ -202,7 +202,7 @@
 
   @include media-query($on-medium) {
     padding: $spacing-unit / 2;
-    @include relative-font-size(0.8);
+    @include relative-font-size(1.0);
   }
 
   @include media-query($on-small) {
@@ -641,8 +641,6 @@ figcaption.align-center {
  * Site footer
  */
 .site-footer {
-  margin-top: $spacing-unit * 2;
-  border-top: 1px solid;
   padding: $spacing-unit 0;
   @include relative-font-size(0.8);
 
