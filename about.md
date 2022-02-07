@@ -6,10 +6,10 @@ permalink: /about/
 <table style="border: 0px solid transparent">
 <tbody>
 <tr>
-  <td>
+  <td style="border: 0px solid transparent">
   <img src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" width="512" height="512" />
   </td>
-<td>
+<td style="border: 0px solid transparent">
 <ul style="list-style-type: none;">
   <li>🦇 Gothic Vampire</li>
   <li>🎨 Digital Artist</li>
