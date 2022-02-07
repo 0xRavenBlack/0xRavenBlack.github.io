@@ -3,11 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
-<table cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+<table style="border: 0px solid transparent">
 <tbody>
 <tr>
   <td>
-  <img src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" alt="" width="512" height="512" />
+  <img src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png" width="512" height="512" />
   </td>
 <td>
 <ul style="list-style-type: none;">
