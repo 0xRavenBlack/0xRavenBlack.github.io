@@ -43,6 +43,7 @@
   font-family: $handwriting-font-family;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-left: 4rem;
   float: left;
 
   @include media-query($on-small) {
