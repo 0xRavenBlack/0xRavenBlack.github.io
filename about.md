@@ -1,25 +1,22 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
+### Mike Ravenblack (0xravenblack)
 <div>
 <img align="right" src="https://raw.githubusercontent.com/0xRavenBlack/0xRavenBlack.github.io/main/images/about/about_avatar_full.png"/>
 
-<ul style="list-style-type: none;">
-  <li style="margin: 0px;">🦇 Gothic Vampire</li>
-  <li style="margin: 0px;">🎨 Digital Artist</li>
-  <li style="margin: 0px;">📷 Photographer</li>
-  <li style="margin: 0px;">👨‍💻 Developer</li>
-  <li style="margin: 0px;">🐧 Linux and OpenSource Enthusiast</li>
-  <li style="margin: 0px;">(full-time Arch Linux user since 2010)</li>
-</ul>
+🦇 Gothic Vampire <br />
+🎨 Digital Artist <br />
+📷 Photographer <br />
+👨‍💻 Developer <br />
+🐧 Linux and OpenSource Enthusiast <br />
+(full-time Arch Linux user since 2010)
 <br />
-
-<ul style="list-style-type: none;">
-  <li style="margin: 0px;">Gender pronoun: he/him</li>
-  <li style="margin: 0px;">Languages: 🇺🇸/🇩🇪</li>
-</ul>
+<br />
+Gender pronoun: he/him <br />
+Languages: 🇺🇸/🇩🇪
 
 <div style="clear: right;"></div>
 
