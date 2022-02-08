@@ -4,6 +4,7 @@ title: "King Johann Monument Fresco"
 categories: Photography
 tags: [King, Johann, Monument, Fresco]
 ---
+📷 Camera Model: **Nikon Coolpix L830**, 💾 Postprocessing Software: **Gimp**
 ## Description:
 In this picture you can see one side of the King Johann monument fresco (equestrian monument)
 ## Photo:
