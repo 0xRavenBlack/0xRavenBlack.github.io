@@ -29,7 +29,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-target-blank
-  - jekyll-flickr
   
 paginate: 10
 
