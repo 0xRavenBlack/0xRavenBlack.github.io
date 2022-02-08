@@ -17,16 +17,6 @@ dl, dd, ol, ul, figure {
 }
 
 /**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure, iframe,
-%vertical-rhythm {
-  margin-bottom: $spacing-unit;
-}
-
-/**
  * Basic styling
  */
 body {
