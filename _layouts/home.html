@@ -17,16 +17,18 @@ layout: default
       {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <h2>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h2>
-        <p class="post-meta">
-          <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-            {{ post.date | date: date_format }}
-          </time>
-        </p>
+        <div class="postlist-header">
+          <h2>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h2>
+          <p class="post-meta">
+            <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+              {{ post.date | date: date_format }}
+            </time>
+          </p>
+        </div>
         <div class="post-content e-content" itemprop="articleBody">
           {{ post.content }}
         </div>
