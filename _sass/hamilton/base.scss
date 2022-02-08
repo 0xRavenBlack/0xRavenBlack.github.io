@@ -193,6 +193,8 @@ ul.task-list {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: 1.5rem;
   margin-left: 1.5rem;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
 
   @media screen and (min-width: $on-large) {
     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
