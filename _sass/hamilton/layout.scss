@@ -324,6 +324,7 @@ ul.social-icons {
   overflow-y: scroll;
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;
+  scrollbar-width: thin;
 
   @include media-query($on-medium) {
     padding-left: $spacing-unit / 2;
@@ -335,6 +336,7 @@ ul.social-icons {
     padding-right: 0;
   }
 }
+
 ::-webkit-scrollbar {
   width: 0.1em;
   height: 0.1em;
