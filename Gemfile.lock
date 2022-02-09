@@ -12,6 +12,8 @@ GEM
     ffi (1.15.5)
     flickr (2.0.2)
     forwardable-extended (2.6.0)
+    htmlbeautifier (1.4.1)
+    htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
     i18n (1.9.1)
       concurrent-ruby (~> 1.0)
@@ -44,6 +46,10 @@ GEM
     jekyll-target-blank (2.0.0)
       jekyll (>= 3.0, < 5.0)
       nokogiri (~> 1.10)
+    jekyll-tidy (0.2.2)
+      htmlbeautifier
+      htmlcompressor
+      jekyll
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.1)
@@ -85,6 +91,7 @@ DEPENDENCIES
   jekyll-seo-tag (~> 2.8)
   jekyll-sitemap (~> 1.4)
   jekyll-target-blank (~> 2.0)
+  jekyll-tidy (~> 0.2.2)
   webrick (~> 1.7)
 
 BUNDLED WITH

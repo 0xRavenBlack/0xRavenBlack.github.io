@@ -11,3 +11,5 @@ gem "jekyll-seo-tag", "~> 2.8"
 gem "jekyll-feed", "~> 0.16.0"
 
 gem "jekyll-flickr", "~> 0.2.0"
+
+gem "jekyll-tidy", "~> 0.2.2"
