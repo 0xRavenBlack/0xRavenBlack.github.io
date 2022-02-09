@@ -322,11 +322,6 @@ ul.social-icons {
 .site-main {
   flex: 1 0 auto;
   overflow-y: scroll;
-
-  // Hide scrollbar for IE, Edge and Firefox
-  -ms-overflow-style: none;  // IE and Edge
-  scrollbar-width: none;     // Firefox
-
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;
 
@@ -340,11 +335,19 @@ ul.social-icons {
     padding-right: 0;
   }
 }
-
-// Hide scrollbar for Chrome, Safari and Opera
-.site-main::-webkit-scrollbar {
-  display: none;
+::-webkit-scrollbar {
+  width: 0.1em;
+  height: 0.1em;
 }
+::-webkit-scrollbar-button {
+  background: #282a36;
+}
+::-webkit-scrollbar-track-piece {
+  background: #44475a;
+}
+::-webkit-scrollbar-thumb {
+  background: #bd93f9;
+}​
 
 /**
  * Homepage

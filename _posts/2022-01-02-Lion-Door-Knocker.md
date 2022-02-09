@@ -4,7 +4,8 @@ title: "Lion Door Knocker"
 categories: Photography
 tags: [Lion, door, knocker, DoorKnocker]
 ---
-📷 Camera Model: **Nikon Coolpix L830**, 💾 Postprocessing Software: **Gimp**
+📷 Camera Model: **Nikon Coolpix L830**<br />
+💾 Postprocessing Software: **Gimp**
 ## Description:
 In this photo you can see a lion head door knocker on a massive iron door
 ## Photo:

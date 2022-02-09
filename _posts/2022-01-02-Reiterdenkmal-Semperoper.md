@@ -4,7 +4,8 @@ title: "Reiterdenkmal Semperoper"
 categories: Photography
 tags: [Reiterdenkmal, Semperoper, EquestrianMonument, Dresden, Saxony]
 ---
-📷 Camera Model: **Nikon Coolpix L830**, 💾 Postprocessing Software: **Gimp**
+📷 Camera Model: **Nikon Coolpix L830**<br />
+💾 Postprocessing Software: **Gimp**
 ## Description:
 On this photo you can see the equestrian monument (Semperoper Dresden)
 ## Photo:

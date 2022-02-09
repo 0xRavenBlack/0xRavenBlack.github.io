@@ -4,7 +4,8 @@ title: "French Pavilion Zwinger"
 categories: Photography
 tags: [French, Pavilion, Zwinger, Dresden, Saxony, Architektur, Architecture, Building]
 ---
-📷 Camera Model: **Nikon Coolpix L830**, 💾 Postprocessing Software: **Gimp**
+📷 Camera Model: **Nikon Coolpix L830**<br />
+💾 Postprocessing Software: **Gimp**
 ## Description:
 In this picture you can see the French Pavilion, Zwinger Dresden
 ## Photo:
