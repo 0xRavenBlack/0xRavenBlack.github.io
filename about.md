@@ -28,11 +28,10 @@ Languages: 🇺🇸/🇩🇪
 
 ## My used Software
 
-| Name| Description| URL
-| GNU Image Manipulation Program (GIMP) |  **GIMP is** a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems. It is free software.| [https://www.gimp.org](https://www.gimp.org)
-| G'MIC|**G'MIC is** a full-featured open-source framework for digital image processing, distributed under the CeCILL free software licenses (LGPL-like and/or GPL-compatible)|[https://gmic.eu/download.html](https://gmic.eu/download.html)
-| Inkscape|**Inkscape is** professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.|[(https://inkscape.org)](https://inkscape.org))
-| Blender|Blender is a free and open-source 3D computer graphics software toolset.|[https://www.blender.org](https://www.blender.org)
-| Arch Linux|Arch Linux is a Linux distribution designed for computers with x86-64 processors. Arch Linux follows the KISS principle ("Keep It Simple, Stupid").|[https://archlinux.org](https://archlinux.org)
-|
+| Name| Description
+| [GNU Image Manipulation Program (GIMP)](https://www.gimp.org) |  **GIMP is** a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems. It is free software.
+| [G'MIC](https://gmic.eu/download.html)|**G'MIC is** a full-featured open-source framework for digital image processing, distributed under the CeCILL free software licenses (LGPL-like and/or GPL-compatible)
+| [Inkscape](https://inkscape.org)|**Inkscape is** professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.
+| [Blender](ttps://www.blender.org)|Blender is a free and open-source 3D computer graphics software toolset.
+| [Arch Linux](https://archlinux.org)|Arch Linux is a Linux distribution designed for computers with x86-64 processors. Arch Linux follows the KISS principle ("Keep It Simple, Stupid").
 
