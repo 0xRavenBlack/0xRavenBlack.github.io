@@ -6,10 +6,6 @@
 
 {% feed_meta %}
 
-{% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-{% endif %}
-
 {% if page.math %}
   {% include mathjax.html %}
 {% endif %}
@@ -40,6 +36,6 @@
 {% endunless %}
 <!-- End selecting skin -->
 
-<script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+<script async src="/assets/js/fontawesome.js"></script>
 
 {% include custom-head.html %}
