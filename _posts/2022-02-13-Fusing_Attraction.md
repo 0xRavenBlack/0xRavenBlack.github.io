@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Fusing_Attraction 🔥🌹💜 (Blender 3D Artwork)"
+title: "Fusing Attraction 🔥🌹💜 (Blender 3D Artwork)"
 categories: 3DArtwork
 tags: [Cyberpunk,Sexy,GameArt,MakeHuman,Blender,Artwork,3D,SciFi]
 ---
 
-Fusing_Attraction 🔥🌹💜 (Blender 3D Artwork) \
+Fusing Attraction 🔥🌹💜 (Blender 3D Artwork) \
 _created with (Blender / CyclesRenderer) and MakeHuman by Mike Ravenblack_
 ## Description: 
 In this picture you can see a pretty lady in a cocoon made of transparent slime. 🐌
