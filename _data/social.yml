@@ -3,6 +3,7 @@
   icon: fab fa-bitcoin
 - title: Mastodon
   url: https://mastodon.art/@0xRavenBlack
+  icon: fab fa-mastodon
 - title: Twitter
   url: https://twitter.com/0x_RavenBlack
   icon: fab fa-twitter
