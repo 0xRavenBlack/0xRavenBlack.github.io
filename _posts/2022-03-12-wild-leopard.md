@@ -2,7 +2,7 @@
 layout: post
 title: "Wild Leopard (Digital Painting) 🐆🐾"
 categories: DigitalPainting
-tags: [painting, Leopard, digitalpainting, krita, punk, animal, cute, kritaart]
+tags: [painting, Leopard, digitalpainting, krita, animal, cute, kritaart]
 ---
 
 Wild Leopard (Digital Painting) 🐆🐾 \
