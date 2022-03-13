@@ -1,4 +1,6 @@
-- title: About Me
+- title: Contact
+  url: /contact/
+- title: About
   url: /about/
 - title: Categories
   url: /categories/
