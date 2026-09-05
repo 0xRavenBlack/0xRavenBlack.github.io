@@ -2,6 +2,37 @@
 (function () {
     'use strict';
 
+    /* Group consecutive article images two-per-row (client-side, so it works
+       even when the GitHub Pages build runs with plugins disabled). */
+    function groupImageRows() {
+        document.querySelectorAll('#posts article .post-content').forEach(function (content) {
+            var wraps = Array.prototype.filter.call(content.children, function (child) {
+                return child.nodeType === 1 && child.tagName === 'P' &&
+                       child.children.length === 1 &&
+                       child.children[0].tagName === 'IMG' &&
+                       !child.closest('.img-row');
+            });
+            if (wraps.length >= 2) {
+                for (var i = 0; i < wraps.length; i += 2) {
+                    var a = wraps[i];
+                    var b = wraps[i + 1];
+                    var row = document.createElement('div');
+                    row.className = 'img-row' + (b ? '' : ' img-row--single');
+                    a.parentNode.insertBefore(row, a);
+                    row.appendChild(a);
+                    if (b) row.appendChild(b);
+                }
+            }
+
+            content.querySelectorAll('img').forEach(function (img) {
+                if (!img.hasAttribute('loading')) {
+                    img.setAttribute('loading', 'lazy');
+                    img.setAttribute('decoding', 'async');
+                }
+            });
+        });
+    }
+
     var lb = document.createElement('div');
     lb.className = 'lightbox';
     lb.innerHTML =
@@ -46,4 +77,6 @@
     document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') close();
     });
+
+    groupImageRows();
 })();
