@@ -1,0 +1,45 @@
+title: I Don't Wanna Be Me
+description: >-
+  You can't teach an old goth new tricks! 🦇
+author:
+  name: 0xRavenBlack
+  url: https://0xravenblack.github.io
+url: "https://0xravenblack.github.io"
+baseurl: ""
+
+# Atomic pastel-goth blog metadata
+meta:
+  keywords: >-
+    coding, linux, arch linux, archlinux, gothic, gothic subculture,
+    programming, software development, linux kernel, dark aesthetic,
+    cybergoth, terminal, command line, open source, unix, pastel goth
+  theme_color: "#0a0a0a"
+
+# Header / avatar / favicon assets (replace the placeholders with your own)
+header_image: /assets/img/header.jpg
+avatar: /assets/img/avatar.png
+favicon: /assets/img/favicon.png
+
+# Build settings
+permalink: /:year/:month/:title/
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/page:num"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - theme.html
+  - README.md
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

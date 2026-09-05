@@ -1,0 +1,20 @@
+<header class="blog-header">
+    <div class="header-image-wrapper">
+        <a href="{{ '/' | relative_url }}" class="header-image-link" title="{{ site.title }}" aria-label="{{ site.title }}">
+            <img src="{{ site.header_image }}" alt="{{ site.title }} header image" width="2400" height="1500" class="header-image" fetchpriority="high" decoding="async">
+        </a>
+
+        <div class="avatar-wrapper">
+            <a href="{{ '/' | relative_url }}" class="user-avatar" style="background-image: url({{ site.avatar }});" title="{{ site.title }}" aria-label="{{ site.title }}"></a>
+        </div>
+    </div>
+
+    <div class="title-group">
+        {% if page.date %}
+            <p class="blog-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+        {% else %}
+            <h1 class="blog-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        {% endif %}
+        <div class="description">{{ site.description }}</div>
+    </div>
+</header>

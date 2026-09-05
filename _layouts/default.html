@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    {% include head.html %}
+</head>
+<body>
+
+    {% include background.html %}
+
+    <div id="container">
+        {% include header.html %}
+        <main id="posts">
+            {{ content }}
+        </main>
+    </div>
+
+    <link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}">
+    <script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,325 @@
+/* 1. Minimal reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Design tokens */
+:root {
+    --bg: #0a0a0a;                /* pitch black */
+    --text: #E6B8F2;              /* pastel purple */
+    --accent: #E6B8F2;            /* pastel purple links */
+    --head: #A8E6CF;              /* pastel green headlines */
+    --code-bg: #111111;
+    --border: #2a2a2a;
+    --main: 'Courier New', Courier, monospace;
+    --display: 'Georgia', serif;
+    --bg-texture: url('/assets/img/bg-texture.png');   /* seamless, tiles */
+}
+
+/* 3. Base */
+html { color-scheme: dark; background: var(--bg); }
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 var(--main);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 4. Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--display);
+    color: var(--head);
+    margin-bottom: 0.5em;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+a:hover {
+    color: var(--head);
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(168, 230, 207, 0.3);
+}
+
+/* 5. Layout */
+#container {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+/* 6. Header & avatar */
+.blog-header { text-align: center; padding-bottom: 30px; }
+
+.header-image-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;             /* room for the hanging avatar */
+    border-bottom: 3px solid var(--text);
+    display: block;
+}
+
+.header-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+    background: var(--code-bg);
+}
+
+.avatar-wrapper {
+    position: absolute;
+    left: 50%;
+    bottom: -80px;                    /* half of 160px: centres on the line */
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.user-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: var(--bg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid var(--text);
+    box-shadow: 0 0 15px rgba(230, 184, 242, 0.3);
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.user-avatar:hover { transform: scale(1.05); }
+
+.title-group {
+    position: relative;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+.blog-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: none;
+    margin-bottom: 0;
+}
+
+.blog-title a { color: var(--head); }
+
+.description {
+    font-size: 0.9rem;
+    color: var(--text);
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+/* 7. Posts */
+article {
+    margin-bottom: 80px;
+    padding: 30px;
+    background: rgba(20, 20, 20, 0.5);
+    border-left: 3px solid var(--text);
+    box-shadow: 0 0 10px rgba(230, 184, 242, 0.05);
+}
+
+.post-title { font-size: 1.8rem; margin-bottom: 15px; }
+.post-title a { color: var(--head); }
+.post-title a:hover { text-decoration: none; }
+
+.post-content { margin-top: 15px; }
+.post-content p { margin-bottom: 1em; }
+.post-content ul, .post-content ol { margin: 0 0 1em 1.5em; }
+.post-content blockquote {
+    border-left: 3px solid var(--border);
+    padding-left: 1em;
+    margin: 0 0 1em;
+    color: var(--text);
+    opacity: 0.85;
+}
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    border: 1px solid var(--border);
+    cursor: pointer;
+}
+.post-content hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2em 0;
+}
+
+/* Two images per row */
+.img-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 1.5em 0;
+}
+
+.img-row p { margin: 0; }
+
+.img-row img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    border: 1px solid var(--border);
+}
+
+.img-row--single {
+    display: block;
+}
+.img-row--single img {
+    width: 100%;
+}
+
+pre, code {
+    background: var(--code-bg);
+    border-radius: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+    color: var(--head);
+}
+
+pre {
+    display: block;
+    padding: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-x: auto;
+    margin: 0 0 1em;
+}
+
+pre code {
+    border: none;
+    background: none;
+    padding: 0;
+    display: block;
+}
+
+code {
+    padding: 2px 5px;
+    display: inline;
+    white-space: normal;
+}
+
+/* 8. Post footer & controls */
+.post-footer {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags { font-size: 0.85rem; margin-bottom: 5px; width: 100%; }
+.tags a { margin-right: 8px; }
+.tags a:hover { text-decoration: underline; }
+
+.post-meta {
+    font-size: 0.85rem;
+    color: var(--text);
+    opacity: 0.8;
+}
+
+/* 9. Pagination */
+#pagination { text-align: center; margin-top: 60px; padding-bottom: 60px; }
+#pagination a, #pagination span {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    color: var(--text);
+    margin: 0 5px;
+}
+#pagination a:hover { border-color: var(--head); color: var(--head); }
+#pagination span { opacity: 0.4; cursor: default; }
+
+/* 10. Animated pastel-goth background layer */
+.bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+    background-color: var(--bg);
+    background-image: var(--bg-texture);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.bg__mist {
+    position: absolute;
+    inset: -20%;
+    background:
+        radial-gradient(38% 42% at 22% 30%, rgba(230, 184, 242, 0.16), transparent 70%),
+        radial-gradient(34% 40% at 78% 24%, rgba(168, 230, 207, 0.12), transparent 70%),
+        radial-gradient(40% 46% at 60% 78%, rgba(242, 184, 208, 0.10), transparent 70%);
+    animation: mist 26s ease-in-out infinite;
+    will-change: transform, opacity;
+}
+
+.bg__vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(115% 90% at 50% 12%, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
+}
+
+.bg__sparks { position: absolute; inset: 0; }
+
+.bg__sparks span {
+    position: absolute;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 0;
+    background: var(--spark, #E6B8F2);
+    box-shadow: 0 0 8px 2px var(--glow, rgba(230, 184, 242, 0.55));
+    animation: float-up var(--t, 28s) linear infinite;
+    animation-delay: var(--d, 0s);
+    left: var(--x, 10%);
+    will-change: transform, opacity;
+}
+
+.bg__sparks span:nth-child(1) { --x: 7%;  --t: 30s; --d: -5s;  --spark: #E6B8F2; --glow: rgba(230,184,242,.55); }
+.bg__sparks span:nth-child(2) { --x: 16%; --t: 36s; --d: -14s; --spark: #A8E6CF; --glow: rgba(168,230,207,.50); width: 3px; height: 3px; }
+.bg__sparks span:nth-child(3) { --x: 25%; --t: 26s; --d: -20s; --spark: #F2B8D0; --glow: rgba(242,184,208,.50); }
+.bg__sparks span:nth-child(4) { --x: 34%; --t: 40s; --d: -9s;  --spark: #C9C2F2; --glow: rgba(201,194,242,.50); width: 3px; height: 3px; }
+.bg__sparks span:nth-child(5) { --x: 46%; --t: 32s; --d: -25s; --spark: #E6B8F2; --glow: rgba(230,184,242,.55); }
+.bg__sparks span:nth-child(6) { --x: 58%; --t: 38s; --d: -3s;  --spark: #A8E6CF; --glow: rgba(168,230,207,.50); }
+.bg__sparks span:nth-child(7) { --x: 70%; --t: 27s; --d: -17s; --spark: #F2B8D0; --glow: rgba(242,184,208,.50); width: 5px; height: 5px; }
+.bg__sparks span:nth-child(8) { --x: 84%; --t: 34s; --d: -7s;  --spark: #C9C2F2; --glow: rgba(201,194,242,.50); }
+.bg__sparks span:nth-child(9) { --x: 92%; --t: 30s; --d: -22s; --spark: #A8E6CF; --glow: rgba(168,230,207,.50); width: 3px; height: 3px; }
+
+@keyframes float-up {
+    0%   { transform: translate3d(0, 2vh, 0); opacity: 0; }
+    6%   { opacity: 0.85; }
+    70%  { opacity: 0.6; }
+    100% { transform: translate3d(0, -112vh, 0) scale(0.5); opacity: 0; }
+}
+
+@keyframes mist {
+    0%, 100% { transform: translate3d(-6%, -4%, 0) scale(1);   opacity: 0.6; }
+    50%      { transform: translate3d(6%, 4%, 0) scale(1.14); opacity: 0.9; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .bg__mist, .bg__sparks span { animation: none !important; opacity: 0; }
+}
